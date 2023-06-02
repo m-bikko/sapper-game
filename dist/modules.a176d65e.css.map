@@ -1,0 +1,1 @@
+{"version":3,"sources":["src/modules.css"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA","file":"modules.a176d65e.css","sourceRoot":"..","sourcesContent":["\r\n.wrapper{\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n    background-color: #48e833;\r\n    height: 100vh;\r\n    width: 100%;\r\n}"]}

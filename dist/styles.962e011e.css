@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #a3a7a2;
+  height: 100vh;
+  width: 100%;
+}
+
+.button {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 4px;
+  background-color: #F1C40F;
+  color: #ffffff;
+  border: none;
+  transition: background-color 0.3s ease;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.button:hover {
+  background-color: #FFD700;
+}
+
+.button:active {
+  background-color: #F39C12;
+  transform: translateY(1px);
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.button:focus {
+  outline: none;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3);
+}
+
+#app {
+  max-width: calc(60px * 8);
+  max-height: calc(60px * 8);
+  display: flex;
+  flex-wrap: wrap;
+}
+#app .box {
+  width: 60px;
+  height: 60px;
+  background-color: rgb(192, 192, 192);
+  border: 1px solid rgb(160, 78, 78);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#app .box.initial {
+  border: 5px solid rgb(149, 192, 149);
+  border-style: outset;
+  cursor: pointer;
+}
+#app .box.bomb-count-1 {
+  color: blue;
+}
+#app .box.bomb-count-2 {
+  color: green;
+}
+#app .box.bomb-count-3 {
+  color: red;
+}
+#app .box.bomb-count-4 {
+  color: darkblue;
+}
+#app .box.bomb-count-5 {
+  color: brown;
+}
+#app .box.bomb-count-6 {
+  color: turquoise;
+}
+#app .box.bomb-count-7 {
+  color: black;
+}
+#app .box.bomb-count-8 {
+  color: white;
+}
+
+/*# sourceMappingURL=/styles.962e011e.css.map */
